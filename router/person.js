@@ -29,7 +29,7 @@ router.delete("/:id", deletePerson);
 router.delete("/:id", deletePersons);
 
 //Update person
-router.put("./:id", updatePerson);
+router.put("/:id", updatePerson);
 //Chain Search
-router.search("./:id", queryChain);
+router.search("/:id", queryChain);
 module.exports = router;
